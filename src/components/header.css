@@ -1,0 +1,28 @@
+.header {
+    height: 60px;
+    width: 100%;
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headerRight {
+    width: 60px;
+    height: 50px;
+    background-color: #f00;
+}
+
+.headerCenter {
+    /* width: 40px; */
+    height: 50px;
+    background-color: #0f0;
+    flex:1;
+}
+
+.headerLeft {
+    width: 100px;
+    height: 50px;
+    background-color: #00f;
+}
