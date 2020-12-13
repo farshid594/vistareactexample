@@ -13,7 +13,7 @@ export default function Cart() {
             <div>
                 <CartHeader />
                 <Button onClick={() => {
-                    showSuccesAlert("با موفقیت ...")
+                    // showSuccesAlert("با موفقیت ...")
                 }}  >
                     open snackbar
                 </Button>
